@@ -1,18 +1,5 @@
-#include <stdio.h>
-#include "main.h"
-/**
-* main - prints _putchar to console
-* Return: always 0
-*/
-int main(void)
-{
-	int i = 0;
-	int size = sizeof(chars)/sizeof(chars[0]);				
-	char chars[] = "_putchar";
-	
-	while(i < size)
-	{
-		_putchar(chars[i]);	
-	}
-	return (0);
-}
+#ifndef MAIN_H
+#define MAIN_H
+void _putchar(char c);
+
+#endif
