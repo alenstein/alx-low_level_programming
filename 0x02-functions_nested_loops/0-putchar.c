@@ -6,12 +6,13 @@
 int main(void)
 {
 	int i = 0;
-	int size = sizeof(chars) / sizeof(chars[0]);
 	char chars[] = "_putchar";
-
+	int size = sizeof(chars) / sizeof(chars[0]);
+	
 	while (i < size)
 	{
 		_putchar(chars[i]);
+		i++;
 	}
 	return (0);
 }
