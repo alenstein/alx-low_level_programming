@@ -1,10 +1,5 @@
-#include <stdio.h>
-/**
-* main - prints _putchar to console
-* Return: always 0
-*/
-int main(void)
-{
-	printf("_putchar\n");
-	return (0);
-}
+ifndef MAIN_H
+define MAIN_H
+void _putchar(char c);
+
+endif
