@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 /**
- *_puts - prints a string, to stdout
- *@str: value to be evaluate.
- *Return: not.
- */
+* _puts - prints a string, to stdout
+* @str: value to be evaluate.
+* Return: not.
+*/
 void _puts(char *str)
 {
 	int l = 0;
