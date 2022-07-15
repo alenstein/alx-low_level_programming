@@ -7,11 +7,13 @@
 * Return: (0)
 */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int len;
 
 	for (len = 0; s[len] != '\0'; len++)
+	{}
+	for ( ; len  > 0 ; len--)
 	{
 
 		_putchar(s[len]);
