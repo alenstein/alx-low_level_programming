@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* print_rev - function to print string in reverse.
+* rev_string - function to print string in reverse.
 * @s: value taken from main
 * Return: (0)
 */
@@ -21,7 +21,7 @@ void rev_string(char *s)
 		len++;
 	}
 	a = len - 1;
-	for ( ; c < ((a/ 2) + 1) ; c++)
+	for ( ; c < ((a / 2) + 1) ; c++)
 	{
 		x = (a - c);
 		n = s[c];
