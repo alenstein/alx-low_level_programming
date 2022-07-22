@@ -8,11 +8,15 @@
 
 int _sqrt_recursion(int n)
 {
+	int i = 0;
+	int next_i = (i + n / i) / 2;
 
+	if (i * i <= n && (i + 1) * (i + 1) > n)
+		return (i);
 	if (n < 0)
 		return (-1);
 	if (n == 0 || n == 1)
 		return (n);
-	 
-	return (_sqrt_recursive((n + (n-1)) / 2);
+
+	return (_sqrt_recursion(next_i));
 }
