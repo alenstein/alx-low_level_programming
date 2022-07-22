@@ -8,7 +8,7 @@
 
 int _sqrt_recursion(int n)
 {
-	int i = 0;
+	int i = n/2;
 	int next_i = (i + n / i) / 2;
 
 	if (i * i <= n && (i + 1) * (i + 1) > n)
