@@ -9,4 +9,5 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int _find_sqrt(int n, int i);
+int checkIf_prime(int n, int i);
 #endif
